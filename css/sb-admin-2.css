@@ -4841,6 +4841,11 @@ input[type="button"].btn-block {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.outline {
+  padding: 5px;
+  outline: 1px solid black;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .badge {
     transition: none;
